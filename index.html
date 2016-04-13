@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BigVideo test site</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Hello World!:D</h1>
+            <h3>Press buttons to see what happens</h3>
+        </div>
+        <hr>
+        <div id="content">
+            <div id="playlist-buttons">
+                <a href="videos/mac.mp4" class="playlist-btn">Video #1</a>
+                <a href="videos/sydney.mp4" class="playlist-btn">Video #2</a>
+                <a href="videos/traffic.mp4" class="playlist-btn">Video #3</a>
+            </div>
+            <br>
+            <br>
+            <div id="playPause">
+                <button id="pause">Pause</button>
+                <button id="play">Play</button>
+                <button id="reload">Reload</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- BigVideo Dependencies -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')
+    </script>
+    <script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
+    <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+    <script src="//vjs.zencdn.net/4.3/video.js"></script>
+
+    <!-- BigVideo -->
+    <script src="bower_components/BigVideo/lib/bigvideo.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
